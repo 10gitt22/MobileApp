@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
 import {BottomTabHeaderProps} from '@react-navigation/bottom-tabs';
-import {Logo} from '../Logo/Logo';
+import {Logo} from '../../ui/Logo/Logo';
 import {colors, spacings, sizes} from '../../styles/base';
 
 export const Header: React.FC<BottomTabHeaderProps> = props => {

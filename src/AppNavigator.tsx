@@ -6,8 +6,8 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import {HomeScreen} from './screens/HomeScreen/HomeScreen';
 import {GalleryScreen} from './screens/GalleryScreen/GalleryScreen';
 import {ProfileScreen} from './screens/ProfileScreen/ProfileScreen';
+import {Header} from './components/Header/Header';
 import {Logo} from './ui/Logo/Logo';
-import {Header} from './ui/Header/Header';
 
 import {colors} from './styles/base';
 
