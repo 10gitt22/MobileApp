@@ -10,6 +10,6 @@ const styles = StyleSheet.create({
   logo: {
     color: colors.text,
     fontWeight: '700',
-    fontSize: font.lg,
+    fontSize: font.h1,
   },
 });

@@ -1,14 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 import {BottomTabHeaderProps} from '@react-navigation/bottom-tabs';
 import {Logo} from '../Logo/Logo';
-import {colors, font, paddings, sizes} from '../../styles/base';
+import {colors, spacings, sizes} from '../../styles/base';
 
 export const Header: React.FC<BottomTabHeaderProps> = props => {
   return (
     <View style={styles.container}>
       <Logo />
-      <Text style={styles.screenText}>{props.route.name}</Text>
     </View>
   );
 };
@@ -20,11 +19,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: sizes.header,
     width: '100%',
-    paddingHorizontal: paddings.md,
+    paddingHorizontal: spacings.md,
     backgroundColor: colors.white,
-  },
-  screenText: {
-    color: colors.text,
-    fontSize: font.md,
+    borderBottomColor: colors.lightGray,
+    borderBottomWidth: 0.5,
+    shadowColor: colors.black,
+    elevation: 3,
   },
 });
