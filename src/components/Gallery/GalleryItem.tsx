@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image, View, StyleSheet} from 'react-native';
-import {colors} from '../../styles/base';
+import {colors, radiuses} from '../../styles/base';
 
 type GalleryItemProps = {
   src: string;
@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     height: 150,
     backgroundColor: colors.lightGray,
     shadowColor: colors.black,
+    borderRadius: radiuses.md,
     elevation: 2,
   },
 });

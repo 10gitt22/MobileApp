@@ -18,6 +18,12 @@ export const spacings = {
   xl: 40,
 };
 
+export const radiuses = {
+  sm: 5,
+  md: 10,
+  lg: 20,
+};
+
 export const font = {
   sm: 12,
   md: 16,

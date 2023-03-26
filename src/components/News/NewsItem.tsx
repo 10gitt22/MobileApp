@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {colors, font, spacings} from '../../styles/base';
+
+import {colors, font, radiuses, spacings} from '../../styles/base';
 import {News} from './types';
 
 type NewsItemProps = {
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.lightGray,
     position: 'relative',
     gap: spacings.md,
-    borderRadius: 20,
+    borderRadius: radiuses.lg,
     marginVertical: spacings.sm,
   },
   photoText: {
